@@ -54,10 +54,10 @@ INSERT INTO horno.deposito (Id_producto,cantidad,fecha)
 VALUES ('1','1500',current_timestamp()),
         ('2','3500',current_timestamp());
 
-INSERT INTO horno. pedido (ID_deposito,ID_Cliente,Cantidad,PrecioVenta,DireccionEnvio,Fecha)
-VALUES ('1', '1', '2', 'Roca 123', '5,2', current_timestamp()),
-        ('1', '1', '2', 'Espanha 123', '2,1', current_timestamp()),
-        ('1', '1', '2', 'Villegas 123', '5,3', current_timestamp());
+INSERT INTO horno.pedido (ID_deposito,ID_Cliente,Cantidad,PrecioVenta,DireccionEnvio,Fecha)
+VALUES ('1', '1', '2', '5.2', 'Roca 123', current_timestamp()),
+        ('1', '1', '2', '2.1', 'Espanha 123', current_timestamp()),
+        ('1', '1', '2', '5.2', 'Villegas 123', current_timestamp());
 
 
 
